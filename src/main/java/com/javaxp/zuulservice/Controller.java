@@ -15,7 +15,7 @@ public class Controller {
 
 	@GetMapping("/")
 	public String message() {
-		return "Hello from " + instance + ":" + port;
+		return "Hello Zuul from " + instance + ":" + port;
 	}
 
 }
